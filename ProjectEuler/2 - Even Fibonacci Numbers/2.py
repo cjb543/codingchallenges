@@ -7,3 +7,31 @@ By starting with 1 and 2, the first 10 terms will be:
 By considering the terms in the Fibonacci sequence whose values do not exceed four million,
 find the sum of the even-valued terms.
 '''
+
+''' UNSAFE COMPUTER NUKE
+def fib(n):
+    l =[0,1]
+    for i in range(2,n):
+        l.append(l[i-1]+l[i-2])
+    return l
+
+if __name__ = "__main__":
+    n = 4000000
+    fibo = fib(n)
+    print(sum([i for i in fibo if i%2 == 0]))
+'''
+
+# Safe, Non-Computer Nuke
+def fib_even_sum(limit):
+    a, b = 1, 2
+    total_even_sum = 0
+    while a <= limit:
+        if a % 2 == 0:
+            total_even_sum += a
+        a, b = b, a + b
+    return total_even_sum
+
+if __name__ == "__main__":
+    limit = 4_000_000
+    result = fib_even_sum(limit)
+    print(result)
