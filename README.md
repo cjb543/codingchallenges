@@ -4,7 +4,8 @@ A monorepo for all things relating to sites like:
   - Advent of Code 
   - Hackerrank 
   - Codility
-    
+  - Codeforces (in the future)
+  - CodeChef \
 etc.. 
 
 
