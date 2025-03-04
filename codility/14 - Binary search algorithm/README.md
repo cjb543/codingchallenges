@@ -1,1 +1,0 @@
-https://codility.com/media/train/12-BinarySearch.pdf

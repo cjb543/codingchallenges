@@ -1,1 +1,0 @@
-https://codility.com/media/train/9-Sieve.pdf

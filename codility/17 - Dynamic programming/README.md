@@ -1,1 +1,0 @@
-https://codility.com/media/train/15-DynamicProgramming.pdf
