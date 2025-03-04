@@ -1,5 +1,5 @@
 def main():
-        # Define the keypad layout
+    # Define the keypad layout
     keypad = [
         [None, None, '1', None, None],
         [None, '2', '3', '4', None],
