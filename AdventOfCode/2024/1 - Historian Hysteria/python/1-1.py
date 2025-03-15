@@ -21,13 +21,13 @@ def main():
         list2.sort()
         list3.sort()
         list2 = [int(x) for x in list2]
-        list3 =[int(x) for x in list3]
-                
+        list3 = [int(x) for x in list3]
+
         i = 0
         for num in list2:
             final_sum += abs(num - list3[i])
             i+=1
-        
+
         print(final_sum)
 
 
