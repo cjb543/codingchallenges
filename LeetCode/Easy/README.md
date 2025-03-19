@@ -1,4 +1,4 @@
-# LeetCode Easy's
+# LeetCode Easy
 Solutions from LeetCode labeled as "Easy" difficulty
 
 > [!NOTE]
